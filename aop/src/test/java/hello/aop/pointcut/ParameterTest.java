@@ -1,9 +1,8 @@
 package hello.aop.pointcut;
 
-import hello.aop.order.aop.member.MemberService;
-import hello.aop.order.aop.member.MemberServiceImpl;
-import hello.aop.order.aop.member.annotation.ClassAop;
-import hello.aop.order.aop.member.annotation.MethodAop;
+import hello.aop.member.MemberService;
+import hello.aop.member.annotation.ClassAop;
+import hello.aop.member.annotation.MethodAop;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
